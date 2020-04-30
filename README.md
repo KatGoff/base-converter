@@ -4,6 +4,15 @@ _Key takeaways from Mathematics for Computer Science, University of London. My m
 In Week 1 of this course, we covered number bases, specifically conversions and arithmetic.
 This was the first time I had really studied number bases, and I learnt a great deal.
 
+### How to run:
+Create a new instance of `BaseConverter` with a number and it's base.
+Use the `convert` method to convert between base 10 and base 2 or vice versa.
+```
+conversion = BaseConverter.new(101, 2)
+conversion.convert
+```
+
+
 ### What are number bases?
 Number bases allow us to use only a small number of symbols to write an unlimited quantity of numbers in a systematic fashion.
 Each place digit can take a certain number of digits, e.g. base 2 place digits can take two different digits (1 or 0), whereas base 10 can take ten (0, 1, 2, 3, 4, 5, 6, 7, 8, or 9).
